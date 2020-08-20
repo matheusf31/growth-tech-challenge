@@ -18,10 +18,12 @@ $ yarn && yarn dev:server
 
 ### Frontend
 
+- 'http://localhost:3000/'
 - '/' Lista todos os usuários;
 - '/user/:id/posts' Lista os posts do usuário com o id especificado;
 
 ### Backend
 
+- 'http://localhost:3333/users'
 - '/users' Lista todos os usuários;
 - '/user/:id/posts' Lista os posts do usuário e o usuário;
