@@ -3,15 +3,16 @@
 ```
 $ git clone https://github.com/matheusf31/growth-tech-challenge
 
-$ cd frontend
+$ cd growth-tech-challenge/backend
+
+# Para instalar as dependências e rodar o backend
+$ yarn && yarn dev:server
+
+$ cd .. && cd frontend
 
 # Para instalar as dependências e rodar o frontend
 $ yarn && yarn start
 
-$ cd .. && cd backend
-
-# Para instalar as dependências e rodar o backend
-$ yarn && yarn dev:server
 ```
 
 ## Rotas
@@ -19,11 +20,11 @@ $ yarn && yarn dev:server
 ### Frontend
 
 - 'http://localhost:3000/'
-- '/' Lista todos os usuários;
-- '/user/:id/posts' Lista os posts do usuário com o id especificado;
+- <b>/</b> Lista todos os usuários;
+- <b>/user/:id/posts</b> Lista os posts do usuário com o id especificado;
 
 ### Backend
 
 - 'http://localhost:3333/users'
-- '/users' Lista todos os usuários;
-- '/user/:id/posts' Lista os posts do usuário e o usuário;
+- <b>/users</b> Lista todos os usuários;
+- <b>/user/:id/posts</b> Lista os posts do usuário e o usuário;
